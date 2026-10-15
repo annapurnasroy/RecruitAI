@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+
+# Secrets
+.streamlit/secrets.toml
+.env
+.env.*
+
+# Local database and data
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Editors
+.vscode/
